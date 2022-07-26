@@ -83,7 +83,7 @@ It can be ubuntu or mint or any debian flavor linux. I use Linux Mint Mate editi
 
 - Open Terminal and run `sudo su` command to gain root privileges 
 
-- Run `df` command in terminal window and check exact drive name of your SD card. You will see partition list, focus on the one with about 30gb capacity. Here is my example: 
+- Run `df -h` command in terminal window and check exact drive name of your SD card. You will see partition list, focus on the one with about 30gb capacity. Here is my example: 
 /dev/mmcblk0p2
 Drive name in my case is mmcblk0, we don't need partition number
 
